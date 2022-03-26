@@ -35,14 +35,11 @@ const userSchema = new mongoose.Schema({
     enum: ["user", "admin", "manager"],
     default: "user",
   },
-  photo: {
-    id: {
-      type: String,
-    },
-    secure_url: {
-      type: String,
-    },
+  phoneNo: {
+    type: Number,
+    required: [true, "Please enter Phone no"],
   },
+
   forgotPasswordToken: String,
   forgotPasswordExpiry: {
     type: Date,
