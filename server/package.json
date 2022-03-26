@@ -1,5 +1,5 @@
 {
-  "name": "tstore",
+  "name": "mvpsstore",
   "version": "1.0.0",
   "description": "a backend api for t-store",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "backend",
     "tstore"
   ],
-  "author": "Vansh Kushwaha",
+  "author": "MVPs",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
